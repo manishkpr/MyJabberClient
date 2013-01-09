@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="@string/account_settings_login">
+		<org.yaxim.androidclient.preferences.EditTextPreferenceWithValue
+			android:id="@+id/account_jabberID"
+			android:key="account_jabberID"
+			android:title="@string/account_jabberID_title"
+			android:summary="@string/account_jabberID_sum"
+			android:dialogTitle="@string/account_jabberID_dialog_title"
+			android:hint="@string/Global_JID_hint"
+			android:singleLine="true"
+			android:inputType="textEmailAddress"
+		 />
+		<EditTextPreference 
+			android:id="@+id/account_jabberPW"
+			android:key="account_jabberPW"
+			android:title="@string/account_jabberPW_title"
+			android:summary="@string/account_jabberPW_sum" 
+			android:dialogTitle="@string/account_jabberPW_dialog_title"
+			android:singleLine="true"
+			android:password="true"
+		 />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/account_settings_title">
+		<org.yaxim.androidclient.preferences.EditTextPreferenceWithValue
+			android:id="@+id/account_resource"
+			android:key="account_resource"
+			android:title="@string/account_resource_title"
+			android:summary="@string/account_resource_summ" 
+			android:dialogTitle="@string/account_resource_dialog_title"
+			android:singleLine="true"
+			android:hint="@string/account_resource_hint"
+		 />
+		<org.yaxim.androidclient.preferences.EditTextPreferenceWithValue
+			android:id="@+id/account_prio"
+			android:key="account_prio"
+			android:title="@string/account_prio_title"
+			android:summary="@string/account_prio_summ"
+			android:dialogTitle="@string/account_prio_dialog_title"
+			android:singleLine="true"
+			android:numeric="integer|signed"
+		/>	
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/account_options_title">
+		<CheckBoxPreference
+			android:id="@+id/reconnect"
+			android:key="reconnect"
+			android:defaultValue="true"
+			android:title="@string/reconnect_title"
+			android:summary="@string/reconnect_summ"
+		/>
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/account_options_advanced">
+		<org.yaxim.androidclient.preferences.EditTextPreferenceWithValue
+			android:id="@+id/account_customserver"
+			android:key="account_customserver"
+			android:title="@string/account_customserver_title"
+			android:summary="@string/account_customserver_summ"
+			android:dialogTitle="@string/account_customserver_dialog_title"
+			android:hint="@string/account_customserver_hint"
+			android:singleLine="true"
+			android:inputType="textUri"
+		/>	
+		<org.yaxim.androidclient.preferences.EditTextPreferenceWithValue
+			android:id="@+id/account_port"
+			android:key="account_port"
+			android:title="@string/account_port_title"
+			android:summary="@string/account_port_sum"
+			android:dialogTitle="@string/account_port_dialog_title"
+			android:hint="@string/account_port_hint"
+			android:singleLine="true"
+			android:numeric="integer"
+		/>	
+		<CheckBoxPreference
+			android:id="@+id/require_ssl"
+			android:key="require_ssl"
+			android:defaultValue="true"
+			android:title="@string/require_ssl_title"
+			android:summary="@string/require_ssl_summ"
+		/>
+	</PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- for emulator include bg -->
+    <!-- <color name="holo_light_bg_color">#fff3f3f3</color> -->
+    
+<!--     the unprefixed ones (without android:) are for the Sherlock implementation -->
+
+    <style name="YaximLightTheme" parent="Theme.Sherlock.Light">
+        <item name="android:actionBarStyle">@style/MyActionBarLight</item>
+        <item name="actionBarStyle">@style/MyActionBarLight</item>
+        
+        <!-- <item name="android:windowBackground">@color/holo_light_bg_color</item> -->
+        <item name="MainGroup">@style/RosterGroupName.Light</item>
+        <item name="MainChild">@style/RosterGroupItem</item>
+        <item name="OnlineFriends">@drawable/ic_action_online_friends_light</item>
+        <item name="AllFriends">@drawable/ic_action_all_friends_light</item>
+        <!-- <item name="android:listSeparatorTextViewStyle">@style/PreferenceListHeader</item> -->
+        <item name="ChatMsgHeaderMeColor">#ff6d6dcc</item>
+        <item name="ChatMsgHeaderYouColor">#ffcc5050</item>
+		<item name="ErrorView">@style/StyleErrorView.Light</item>
+		<item name="ChatNewMessageColor">#ffb0b0b0</item>
+		<item name="ChatStoredMessageColor">#60b0b0b0</item>
+        <item name="dialogTextColor">@style/dialogBackground</item>
+    </style>
+
+    <style name="IndeterminateProgress" parent="Widget.Sherlock.ProgressBar">
+        <item name="android:minWidth">32dip</item>
+        <item name="android:maxWidth">32dip</item>
+        <item name="android:minHeight">32dip</item>
+        <item name="android:maxHeight">32dip</item>
+    </style>
+
+    <style name="MyActionBarLight" parent="Widget.Sherlock.Light.ActionBar">
+        <item name="android:background">#3000</item>
+        <item name="background">#3000</item>
+        <item name="android:indeterminateProgressStyle">@style/IndeterminateProgress</item>
+        <item name="indeterminateProgressStyle">@style/IndeterminateProgress</item>
+    </style>
+
+    <style name="MyActionBarDark" parent="Widget.Sherlock.ActionBar">
+        <item name="android:indeterminateProgressStyle">@style/IndeterminateProgress</item>
+        <item name="indeterminateProgressStyle">@style/IndeterminateProgress</item>
+    </style>
+
+    <style name="YaximDarkTheme" parent="Theme.Sherlock">
+        <item name="android:actionBarStyle">@style/MyActionBarDark</item>
+        <item name="actionBarStyle">@style/MyActionBarDark</item>
+        <item name="MainGroup">@style/RosterGroupName.Dark</item>
+        <item name="MainChild">@style/RosterGroupItem</item>
+        <item name="OnlineFriends">@drawable/ic_action_online_friends_dark</item>
+        <item name="AllFriends">@drawable/ic_action_all_friends_dark</item>
+        <item name="ChatMsgHeaderMeColor">#ff8888ff</item>
+        <item name="ChatMsgHeaderYouColor">#ffff8888</item>
+		<item name="ChatNewMessageColor">#ff404040</item>
+		<item name="ChatStoredMessageColor">#60404040</item>
+		<item name="ErrorView">@style/StyleErrorView</item>
+        <item name="dialogTextColor">@style/dialogBackground</item>
+    </style>
+
+</resources>

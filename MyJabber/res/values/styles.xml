@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--     the unprefixed ones (without android:) are for the Sherlock implementation -->
+
+    <style name="RosterGroupName">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="RosterGroupName.Dark">
+        <item name="android:background">@drawable/group_background_9_dark</item>
+        <item name="background">@drawable/group_background_9_dark</item>
+    </style>
+
+    <style name="RosterGroupName.Light">
+        <item name="android:background">@drawable/group_background_9_light</item>
+    </style>
+
+    <style name="RosterGroupItem">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+	<style name="StyleErrorView">
+		<item name="android:textSize">18sp</item>
+		<item name="android:padding">5sp</item>
+		<item name="android:textColor">#000</item>
+		<item name="android:background">#b44</item>
+		<item name="android:shadowColor">#44000000</item>
+		<item name="android:shadowRadius">3.0</item>
+	</style>
+	<style name="StyleErrorView.Light">
+		<item name="android:background">#f88</item>
+		<item name="android:textColor">#400</item>
+	</style>
+    <style name="RosterMessageCounter">
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">4dip</item>
+        <item name="android:layout_marginLeft">4dip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">2dip</item>
+        <item name="android:paddingBottom">2dip</item>
+        <item name="android:paddingLeft">5dip</item>
+        <item name="android:paddingRight">5dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:lines">1</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:textSize">11dip</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:background">@drawable/count_bcg</item>
+        <item name="android:text"></item>
+    </style>
+
+</resources>

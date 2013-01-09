@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+		android:id="@+id/statusLayout" 
+		android:orientation="vertical"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:paddingLeft="10dp"
+		android:paddingRight="10dp"
+		android:paddingBottom="15dp"
+		android:paddingTop="10dp">
+
+	<TextView
+			android:id="@+id/Addcontact_Title"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/addFriend_Summ"
+			android:paddingBottom="20dp"
+			style="?attr/dialogTextColor"
+		/>
+	<EditText
+			android:id="@+id/AddContact_EditTextField"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="20dp"
+			android:gravity="left"
+			android:singleLine="true"
+			android:textSize="18sp"
+			android:maxWidth="200sp"
+			android:inputType="textEmailAddress"
+			android:hint="@string/Global_JID_hint" />
+	
+	<EditText
+			android:id="@+id/AddContactAlias_EditTextField"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="left"
+			android:layout_marginBottom="20dp"
+			android:singleLine="true"
+			android:textSize="18sp"
+			android:maxWidth="200sp"
+			android:hint="@string/addFriend_aliasHint"
+			/>
+		<org.yaxim.androidclient.dialogs.GroupNameView
+			android:id="@+id/AddRosterItem_GroupName"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			/>
+</LinearLayout>

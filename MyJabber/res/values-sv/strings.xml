@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">yaxim</string>
+
+	<!-- Connection state -->
+	<string name="conn_title">yaxim: %s</string>
+	<string name="conn_connecting">Ansluter till server…</string>
+	<string name="conn_online">Ansluten</string>
+	<string name="conn_offline">Frånkopplad</string>
+	<string name="conn_empty_roster">Inga kontakter att visa!</string>
+	<string name="conn_reconnect">\nAnsluter igen om %d sekunder.</string>
+	<string name="conn_disconnected">Anslutningen stängd</string>
+	<string name="conn_networkchg">Network changed</string>
+
+	<!-- Global Strings -->
+	<string name="Global_Exit">Avsluta</string>
+	<string name="Global_authenticate_first">Anslut först</string>
+	<string name="Global_JID_hint">anvnamn@jabber.exempel.com</string>
+
+	<!-- FirstStartUpDialog -->
+	<string name="StartupDialog_Title">Välkommen till yaxim!</string>
+	<string name="StartupDialog_Summary">Vissa inställningar måste göras innan du kan börja använda programmet. Ange ditt Jabber-ID och lösenord.</string>
+	<string name="StartupDialog_pwHint">Ange lösenord</string>
+	<string name="StartupDialog_Username_title">Jabber-ID:</string>
+	<string name="StartupDialog_passwd_title">Lösenord:</string>
+	<string name="StartupDialog_advanced">Avancerat…</string>
+	<string name="StartupDialog_create_new">Registrera nytt konto</string>
+
+	<!-- Notifications -->
+	<string name="notification_message">Meddelande från %s</string>
+	<string name="notification_anonymous_message">Meddelande mottaget</string>
+
+	<!-- Notification Settings -->
+	<string name="preftitle_notify">Meddelandeavisering</string>
+	<string name="led_title">Blinkande lysdiod</string>
+	<string name="led_summ">Blinkning LED vid inkommande meddelande</string>
+	<string name="vibr_title">Vibration</string>
+	<string name="vibr_summ">Vibrera vid inkommande meddelande</string>
+	<string-array name="vibr_values_displayed">
+		<item>Aldrig</item>
+		<item>System preference</item>
+		<item>Alltid</item>
+	</string-array>
+	<string name="ringtone_title">Ljudsignal</string>
+	<string name="ringtone_summ">Ljud vid inkommande meddelande</string>
+	<string name="ticker_title">Förhandsgranskning</string>
+	<string name="ticker_summ">Visa avsändare och meddelande i statusfältet</string>
+
+	<!-- Startup Setting Strings -->
+	<string name="preftitle_boot">Startalternativ</string>
+	<string name="statuspopup_name">Ange status</string>
+	<string name="showOffline_summ">Visa alltid alla kontakter i listan</string>
+	<string name="showOffline_title">Visa frånkopplade kontakter</string>
+	<string name="foregroundService_summ">Keep yaxim in memory to ensure always-on connection (foreground service)</string>
+	<string name="foregroundService_title">Statusfältikon</string>
+
+	<string name="preftitle_debug">Felsökning</string>
+	<string name="smackdebug_summ">Packet and debug output via logcat (may contain personal information)</string>
+	<string name="smackdebug_title">SMACK-felsökning</string>
+
+	<string name="reportcrash_title">Skicka rapport vid programkrasch</string>
+	<string name="reportcrash_summ">Skicka anonyma kraschrapporter till utvecklare</string>
+
+	<!-- Appearence Strings -->
+	<string name="preftitle_app">Utseende</string>
+	<string name="FontChat_title">Fontstorlek chatt</string>
+	<string name="FontChat_summ">Välj fontstorlek för chatt</string>
+	<string name="FontChat_dialog">Fontstorlek chatt</string>
+	<!--
+	<string name="FontRost_title">Roster font size</string>
+	<string name="FontRost_summ">Set roster font size</string>
+	<string name="FontRost_dialog">Roster font fize</string>
+	<string name="setFontRoster">Set roster font size</string>
+	-->
+	<string name="pref_theme">Tema</string>
+	<string-array name="pref_theme_entries">
+		<item>Mörk</item>
+		<item>Ljus</item>
+	</string-array>
+	<string name="preftitle_ui">Utseende</string>
+	<string-array name="fontSizesChat">
+		<item>liten</item>
+		<item>normal</item>
+		<item>stor</item>
+	</string-array>
+
+	<!-- Mainmenu 	-->
+	<string name="Menu_addFriend">Lägg till kontakt</string>
+	<string name="Menu_ShowOff">Visa frånk.</string>
+	<string name="Menu_HideOff">Dölj frånk.</string>
+	<string name="Menu_AccSettings">Ändra kontoinställningar</string>
+	<string name="Menu_Settings">Inställningar</string>
+	<string name="Menu_Status">Status</string>
+	<string name="Menu_connect">Anslut</string>
+	<string name="Menu_disconnect">Koppla från</string>
+	<string name="Menu_about">Om yaxim</string>
+
+	<!-- AddFriend -->
+	<string name="addFriend_Title">Lägg till kontakt</string>
+	<string name="addFriend_Summ">Skriv in kontaktens Jabber-ID samt vilket namn som ska visas på skärmen och välj vilken grupp kontakten ska tillhöra!</string>
+	<string name="addFriend_aliasHint">Visningsnamn</string>
+	<string name="addrosteritemaddgroupchoice">Lägg till i en ny grupp</string>
+	<string name="NewGroup_EditTextField_Hint">Den nya gruppens namn</string>
+
+	<!-- Roster CONTEXTMENU -->
+	<string name="roster_contextmenu_title">%s - alternativ</string>
+	<string name="roster_contextmenu_group_rename">Ändra namn på grupp</string>
+	<string name="roster_contextmenu_contact_delete">Ta bort kontakt</string>
+	<string name="roster_contextmenu_contact_delmsg">Ta bort chatthistorik</string>
+	<string name="roster_contextmenu_contact_open_chat">Öppna chatt</string>
+	<string name="roster_contextmenu_contact_rename">Ändra namn</string>
+	<string name="roster_contextmenu_contact_request_auth">Begär godkännande</string>
+	<string name="roster_contextmenu_contact_change_group">Byt grupp</string>
+
+	<!-- Accountprefs -->
+	<string name="account_settings_login">Inloggningsuppgifter</string>
+	<string name="account_settings_title">Kontoinställningar</string>
+	<string name="account_options_title">Anslutningsalternativ</string>
+	<string name="account_options_advanced">Avancerade alternativ</string>
+	<string name="connstartup_title">Anslut vid programstart</string>
+	<string name="connstartup_summOn">Anslut när yaxim startas</string>
+	<string name="connstartup_summOff">Anslut inte automatiskt</string>
+	<string name="reconnect_title">Försök återansluta automatiskt</string>
+	<string name="reconnect_summ">Återansluter om anslutningen bryts</string>
+	<string name="account_jabberID_title">Jabber-ID</string>
+	<string name="account_jabberID_sum">example: jag@jabber.exempel.com</string>
+	<string name="account_jabberID_dialog_title">Ange ditt Jabber-ID:</string>
+	<string name="account_jabberPW_title">Lösenord</string>
+	<string name="account_jabberPW_sum">Jabberkontots lösenord</string>
+	<string name="account_jabberPW_dialog_title">Ange lösenord:</string>
+
+	<!-- accountprefs -->
+	<string name="account_resource_title">Instans</string>
+	<string name="account_resource_summ">Förvalt: yaxim</string>
+	<string name="account_resource_dialog_title">Ange instans:</string>
+	<string name="account_resource_hint">yaxim</string>
+	<string name="account_prio_title">Prioritet</string>
+	<string name="account_prio_summ">Förvalt: 0 (tillåtet: -128 .. 127)</string>
+	<string name="account_prio_dialog_title">Ange prioritet:</string>
+	<string name="account_port_title">Serverport</string>
+	<string name="account_port_sum">Förvalt: 5222</string>
+	<string name="account_port_dialog_title">Ange port:</string>
+	<string name="account_port_hint">5222</string>
+	<string name="account_customserver_title">Ange annan server</string>
+	<string name="account_customserver_summ">Ange en annan server (valfritt)</string>
+	<string name="account_customserver_dialog_title">Ange serverns namn:</string>
+	<string name="account_customserver_hint">host.exempel.com</string>
+	<string name="require_ssl_title">Kräv SSL/TLS</string>
+	<string name="require_ssl_summ">Krypterar alltid anslutning till servern</string>
+
+	<!--StatusPopUp-->
+	<string name="AddContact_SpinnerPrompt">Välj grupp</string>
+	<string name="setStatusmsgHint">Statusmeddelande</string>
+	<string name="setStatusTitle">Ange status</string>
+	<string name="RenameGroup_summ">Ändra namn på gruppen %s till:</string>
+	<string name="RenameGroup_title">Ändra namn på grupp</string>
+	<string name="RenameEntry_summ">Döp om %1$s (%2$s) till:</string>
+	<string name="RenameEntry_title">Döp om kontakt</string>
+	<string name="MoveRosterEntryToGroupDialog_summ">Välj en grupp nedan</string>
+	<string name="MoveRosterEntryToGroupDialog_title">Byt grupp</string>
+	<string name="deleteRosterItem_text">Ta bort %1$s (%2$s)?</string>
+	<string name="deleteRosterItem_title">Ta bort kontakt</string>
+	<string name="deleteChatHistory_text">Ta bort alla meddelanden för %1$s (%2$s)?</string>
+	<string name="deleteChatHistory_title">Ta bort chatthistorik</string>
+
+	<!-- CHATWINDOW -->
+	<string name="chat_from_me">Jag:</string>
+	<string name="toast_connectfail_message">Frånkopplad!</string>
+	<string name="toast_stored_offline">Meddelandet har lagrats för att kunna skickas senare.</string>
+	<string name="chat_enterMsgHint">Skriv meddelande</string> 
+
+	<!-- GPS settings -->
+	<!--
+	<string name="showGPS_title">GPS to status</string>
+	<string name="showGPS_summ_on">GPS is send to StatusMessage</string>
+	<string name="showGPS_summ_off">GPS is send to StatusMessage</string>
+	-->
+
+	<!-- About Dialog -->
+	<string name="AboutDialog_title">Om yaxim</string>
+	<string name="AboutDialog_DevelopersTitle">Utvecklare</string>
+	<string name="AboutDialog_DevelopersText">Kontakta utvecklarna på http://yaxim.org eller freenode IRC: #yaxim</string>
+	<string name="AboutDialog_LicenceTitle">Licensing</string>
+	<string name="AboutDialog_Vote">Tyck till</string>
+	<string name="AboutDialog_LicenceText">Denna text har avsiktligt lämnats i sin helhet på orginalspråk: This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 2 as published by the Free Software Foundation. Link: http://www.gnu.org/licenses/gpl-2.0.html\n \n Parts of this software are provided under the MIT License:\n \n Copyright © 2009 Mads Kristiansen, Nullwire ApS\n \n Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: \n The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. \n THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</string>
+
+	<string name="status_available">Ansluten</string>
+	<string name="status_away">Frånvarande</string>
+	<string name="status_chat">Ledig för chatt</string>
+	<string name="status_dnd">Stör ej</string>
+	<string name="status_xa">Inte tillgänglig</string>
+	<string name="status_offline">Frånkopplad</string>
+
+	<string name="translator_credits">Launchpad Contributions:
+  Argafål https://launchpad.net/~argafal
+  Erik Lindström https://launchpad.net/~erikl
+  Fredrik Wendt https://launchpad.net/~fredrik-wendt</string>
+
+	<!-- default roster group with no name -->
+	<string name="default_group">General</string>
+
+	<!-- SEND listener popup -->
+	<string name="chooseContact">Välj kontakt</string>
+</resources>
